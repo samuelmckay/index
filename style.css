@@ -1,0 +1,60 @@
+/*Website Styles */
+* {
+  /*font-size: 100%; */
+}
+
+body {
+  background-color: Lavender;
+  color: DarkSlateBlue;
+  font-family: 'roboto', sans-serif, arial, Times;
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  font height: 900;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: left;
+  color: red;
+}
+
+header h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  color: yellow;
+}
+h3 {
+  font-size: 18px;
+  color: lime;
+}
+p {
+  line-height: 2;
+  color: crimson;
+}
+section {
+  color: black;
+}
+footer p {
+  color: black;\
+  font-size: 36px;
+}
+
+a:link
+a:focus
+a:active {
+  color: red;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline;
+  color: greeng;
+}
+a:visited {
+  color: black;
+}
