@@ -1,6 +1,11 @@
 /*Website Styles */
 * {
-  /*font-size: 100%; */
+  /* font-size: 100%;  */
+  /* border: 1px solid red:  */
+  /* margin: 2;  */
+  /* line-height: 1; */
+  box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
@@ -8,12 +13,18 @@ body {
   color: DarkSlateBlue;
   font-family: 'roboto', sans-serif, arial, Times;
   font-size: 20px;
+  /* margin: 50px;  */
 }
-
+header, section, footer {
+  text-align: center;
+  padding: 30px;
+  border-bottom: 5px solid grey;
+}
 h1, h2, h3 {
   font-weight: normal;
   font height: 900;
   font-style: italic;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -22,8 +33,6 @@ h1 {
   color: red;
 }
 
-header h1 {
-  text-align: center;
 }
 h2 {
   font-size: 24px;
@@ -36,13 +45,28 @@ h3 {
 p {
   line-height: 2;
   color: crimson;
+  margin: 15px 0;
+}
+ul, ol {
+  margin: 15px 0;
 }
 section {
   color: black;
+  border: 1px solid gainsboro;
+  background-color: white;
+  margin: 30px;
+  padding: 30px;
+}
+img {
+  height: 300px;
 }
 footer p {
-  color: black;\
+  color: black;
   font-size: 36px;
+
+.title {
+  font-size: 48px;
+  text-decoration: underline;
 }
 
 a:link
