@@ -10,22 +10,74 @@
 body {
   background-color: beige;
   color:;
-  font-family:;
-  font-size:;
-  /* margin: 50px;  */
-}
-header, section, footer {
+  font-family: helvetica, sans-serif,;
+  font-weight: 400;
   text-align:;
-  padding:;
-  border-bottom:;
 }
 
-h1, h2, h3 {
-  font-weight:;
-  font height:helvetica;
-  font-style:;
-  margin-bottom:;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
+
+Header {
+  background: SandyBrown;
+}
+header: :after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 5px 0;
+
+}
+
+
+
+nav {
+  float: center;
+  padding: 20px 0;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  position: relative;
+}
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15.5px;
+}
+nav a:hover {
+  color: black;
+}
+nav a:before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 0;
+  transition: all ease-in-out 225ms;
+}
+nav a:hover::before {
+  width: 100%;
+}
+
+
 
 h1 {
   font-size:50px;
@@ -34,42 +86,55 @@ h1 {
   font-style: helvetica;
 }
 
-}
+
 h2 {
   font-size: 24px;
-  color: yellow;
+  color: black;
 }
+
+
 h3 {
   font-size: 18px;
-  color: lime;
+  color: black;
 }
+
+h4 {
+  text-transform: uppercase;
+}
+
 p {
   line-height: 2;
   color: black;
   margin: 15px 0;
 }
-ul, ol {
-  margin: 15px 0;
+Section h3 {
+  text-align: center;
+  margin: 75px;
+  font-size: 30px;
 }
+
+
 Section {
-  color:DarkBlue;
+  color: black;
   border: solid;
-  border-width: 2px;
+  border-width: 1.5px;
   background-color: white ;
   margin:50px;
   padding:0;
 }
+
+
 img {
-  height:;
+  display: block;
+  margin: 0 auto;
 }
+
+
 footer p {
   color:;
   font-size:;
-
-.title {
-  font-size:;
-  text-decoration:;
 }
+
 
 a:link
 a:focus
@@ -77,10 +142,14 @@ a:active {
   color:;
   text-decoration:;
 }
+
+
 a:hover {
   text-decoration:;
   color:;
 }
+
+
 a:visited {
   color:;
 }
